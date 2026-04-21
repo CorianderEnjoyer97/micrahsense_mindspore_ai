@@ -7,6 +7,7 @@ import random
 
 ms.set_context(device_target="CPU")
 
+# Copy the dataset's path file
 CSV_FILE_PATH = "/Users/taokiensam/.gemini/antigravity/scratch/micra_h_sense_dataset.csv"
 
 # The 8-class mapping
