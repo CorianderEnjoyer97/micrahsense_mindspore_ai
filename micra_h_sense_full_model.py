@@ -4,11 +4,11 @@ from mindspore import Tensor
 import numpy as np
 import csv
 import random
+import os
 
 ms.set_context(device_target="CPU")
 
-# Copy the dataset's path file
-CSV_FILE_PATH = "/Users/taokiensam/.gemini/antigravity/scratch/micra_h_sense_dataset.csv"
+CSV_FILE_PATH = os.path.join(os.path.dirname(__file__), "micra_h_sense_dataset.csv")
 
 # The 8-class mapping
 EMOTION_MAP = {
