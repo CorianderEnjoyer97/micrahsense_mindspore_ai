@@ -186,9 +186,13 @@ micrahsense_mindspore_ai/
 - **Framework**: MindSpore (https://www.mindspore.cn/)
 - **Approach**: Hybrid neural-symbolic AI combining learned patterns with clinical flowcharts
 
+
 ## Contributors
 
 - CorianderEnjoyer97 (Lead Developer)
+- mei1104 (Collaborator)
+- peirou0219 (Collaborator)
+- rahman93iu-spec (Collaborator)
 
 ## License
 
